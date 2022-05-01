@@ -121,7 +121,7 @@ nav a:hover::before{
   }
 
   .project-one{
-    
+    background-image: url(iso-republic-abstract-liquid-swirl-12.jpg);
     width: 60%;
     padding: 40px;
     padding-left: 70px;
@@ -131,7 +131,13 @@ nav a:hover::before{
     margin-right: 300px;
     margin-left: 300px;
     margin-bottom: 70px;
-    background-color: #fff;
+    text-align: center;
+    border: 5px solid #000000;
+  }
+
+  .project-one:hover{
+    filter:grayscale(100%);
+    transition: ease-in ;
   }
 
 
@@ -146,18 +152,40 @@ nav a:hover::before{
   }
 
   .project-two{
-    background-color: white;
+  background-image:url(iso-republic-boarhead-lighthouse-ocean.jpg);
    text-align: center;
+   border: 5px solid #000000;
   }
+
   .project-three{
-    background-color: white;
+    background-image: url(picography-bokeh-soft-colorful-background-abstract.jpg);
     text-align: center;
+    border: 5px solid #000000;
   }
 
   .project-four{
-    background-color: white;
+    background-image: url(iso-republic-orange-clouds-blue-sky-130.jpg);
     text-align: center;
+    border: 5px solid #000000;
   }
+
+
+  .project-two:hover{
+    filter:grayscale(100%);
+    transition: ease-in ;
+  }
+
+  .project-three:hover{
+    filter:grayscale(100%);
+    transition: ease-in ;
+  }
+
+  .project-four:hover{
+    filter:grayscale(100%);
+    transition: ease-in ;
+  }
+
+
 
 
 
@@ -202,6 +230,19 @@ nav a:hover::before{
     background-color: #E07A5F;
   }
 
+
+  @media screen and (max-width: 768px) {
+  .container{
+    flex-wrap: wrap;
+  }
+  .container-1{
+    flex-wrap: wrap;
+  }
+  .container-2{
+    flex-wrap: wrap;
+  }
+  
+}
   
 
 
